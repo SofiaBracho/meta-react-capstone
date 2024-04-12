@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Marie Jones",
+        "photo": "client-3.jpg",
+        "quote": "Whenever I want to eat healthy, I go to Little Lemon.",
+        "stars": 5
+    },
+    {
+        "name": "John Smith",
+        "photo": "client-4.jpg",
+        "quote": "Little Lemon food remind me of my home.",
+        "stars": 5
+    },
+    {
+        "name": "Tilly Monroe",
+        "photo": "client-2.jpg",
+        "quote": "Last sunday I didn't want to cook, so I went to Little Lemon.",
+        "stars": 5
+    },
+    {
+        "name": "William Gray",
+        "photo": "client-1.jpg",
+        "quote": "This restaurant deserves 5 stars.",
+        "stars": 5
+    }
+]
