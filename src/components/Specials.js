@@ -4,18 +4,20 @@ import dishes from  '../specials.json';
 
 function Specials() {
   return (
-    <section>
-        <div>
-            <h1>This weeks specials!</h1>
-            <a href='#'>Online Menu</a>
+    <section id='specials'>
+        <div className='container'>
+            <div>
+                <h1>This weeks specials!</h1>
+                <a href='#' className='btn btn-primary'>Online Menu</a>
+            </div>
+            <article className='row'>
+                {dishes.map((dish) => {
+                    return (
+                        <Special {...dish} />
+                    )
+                })}
+            </article>
         </div>
-        <article>
-            {dishes.map((dish) => {
-                return (
-                    <Special {...dish} />
-                )
-            })}
-        </article>
     </section>
   )
 }
