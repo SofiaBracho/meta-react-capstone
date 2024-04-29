@@ -47,7 +47,7 @@ p.paragraph {
     font-weight: normal;
     font-size: 13px;
 }
-a.btn-primary {
+.btn-primary {
     background: var(--primary-yellow);
     color: var(--highlight-dark);
     font-weight: bold;
@@ -55,10 +55,10 @@ a.btn-primary {
     height: max-content;
     padding: 17px 38px;
 }
-a.btn-primary:hover {
+.btn-primary:hover {
     background: var(--secondary-peach);
 }
-a.btn-primary:active {
+.btn-primary:active {
     background: var(--primary-green);
 }
 
@@ -298,6 +298,22 @@ footer .container nav ul li a {
 }
 footer .container nav ul li a:hover {
     color: var(--primary-yellow);
+}
+
+/* BOOKING */
+section.booking {
+    margin: 2rem 0;
+}
+section.booking form {
+    background: #eeeeee;
+    padding: 1rem;
+    border-radius: 16px;
+}
+section.booking input,
+section.booking select {
+    padding: .5rem 1rem;
+    border-radius: 16px;
+    border: 1px solid gray;
 }
 
 @media screen and (max-width: 480px) {

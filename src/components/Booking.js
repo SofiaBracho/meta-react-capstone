@@ -1,11 +1,18 @@
 import React from 'react'
+import BookingForm from './BookingForm'
 
-function HomePage() {
+function Booking({state, availableTimes, setState, dispatch}) {
+
   return (
-    <h1>
-      Booking page
-    </h1>
+    <section className="booking">
+      <div className='container'>
+        <h1 id='booking-title'>
+          Table Booking
+        </h1>
+        <BookingForm state={state} dispatch={dispatch} availableTimes={availableTimes} setState={setState} />
+      </div>
+    </section>
   )
 }
 
-export default HomePage
+export default Booking
